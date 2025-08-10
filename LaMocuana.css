@@ -222,6 +222,19 @@ nav ul{
    @media (max-width: 420px) 
 {
 
+    /* Evita el scroll horizontal */
+    html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+    }
+
+    /* Asegura que nada exceda el ancho */
+    * {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
 
      /* NAV */
     nav ul.navegador {
